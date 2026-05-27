@@ -1,0 +1,118 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.f_nav button{
+    background: none;
+    color:#8E6CEF;
+    padding:5px 5px 5px 0;
+}
+
+main .logo {
+    height: 80px;
+    border-radius: 100px;
+}
+
+p {
+    font-size: clamp(14px, 1.5vw, 32px);
+}
+
+header div button {
+    font-size: clamp(14px, 1.5vw, 30px);
+    margin: 5px;
+}
+
+header button {
+    border: none;
+    font-size: 12px;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.a {
+    color: #171717;
+}
+
+.b {
+    color: #8E6CEF;
+}
+
+.s {
+    display: flex;
+    gap: 5px;
+    font-size: clamp(20px, 3vw, 30px);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 50px 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+main * {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+form input {
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+main {
+    padding: 10px;
+    border-radius: 5px;
+    height:100vh;
+}
+
+main button {
+    font-size: clamp(16px, 3vw, 28px);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media (min-width:768px) {
+    forms {
+        width: 300px;
+    }
+    nav .logo{
+    display:block;
+        height: 60px;
+        padding:5px;
+        margin:5px 0px;     
+    }
+}
+
+@media (min-width:768px) {
+    forms input {
+        width: 500px;
+    }
+    nav .logo{
+    display:block;
+        height: 60px;
+        padding:5px;
+        margin:5px 0px;     
+    }
+}

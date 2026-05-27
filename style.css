@@ -1,0 +1,83 @@
+section h3 {
+    background-color: #E5E7EB;
+    width: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #1D1D1F;
+    padding: 5px;
+}
+
+section {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    margin:30px 0;
+    gap: 30px;
+    font-size: clamp(16px, 4vw, 30px);
+
+}
+
+.three {
+    display: none;
+}
+
+.o {
+    color: #1D1D1F;
+    margin: 5px 0;
+}
+
+.p {
+    color: #8E6CEF;
+    margin: 5px 0;
+}
+
+.s {
+    display: flex;
+    gap: 10px;
+    font-size: clamp(20px, 1.5vw, 33px);
+    font-weight: 900;
+}
+
+section .sub {
+    width: 300px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: clamp(16px, 1.5vw, 20px);
+}
+
+.sub p {
+    margin: 0;
+}
+section button {
+    font-size: clamp(20px, 3vw, 30px);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+section a {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px;
+}
+@media (min-width:768px){
+    nav .logo{
+    display:block;
+        height: 60px;
+        padding:5px;
+        margin:5px 0px;     
+    }
+}
+@mediac(min-width:1024px){
+    nav .logo{
+    display:block;
+        height: 60px;
+        padding:5px;
+        margin:5px 0px;     
+    }
+}
